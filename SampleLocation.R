@@ -1,4 +1,4 @@
-sampleLocation <- function(targetSamples,SampleLocRaw="Path:/to/progeny/DNA/file.txt" )
+SampleLocation <- function(targetSamples,SampleLocRaw="Path:/to/progeny/DNA/file.txt" )
 {
   
   # Function arguments:
