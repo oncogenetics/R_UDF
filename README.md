@@ -7,9 +7,10 @@ DNA selection from plates...
 ## GeneSymbol
 Collapse transcripts into gene symbols. Output is a Granges object for defined region in a chromosome.
 
-### Example 1: Get all genes for chr17
+### Example 1:
+Get all genes for chr17
 ```r
-allGenesChr17 <- udf_GeneSymbol(chrom = "chr17")
+allGenesChr17 <- GeneSymbol(chrom = "chr17")
 # Define region of interest - ROI
 roi <- GRanges(seqnames="chr17",
                IRanges(start=41150000,
@@ -19,9 +20,10 @@ roi <- GRanges(seqnames="chr17",
 ggplot(subsetByOverlaps(allGenesChr17,roi)) + 
   geom_alignment(aes(group=gene_id,fill=strand,col=strand))
 ```
-### Example 2: Get all genes for chr17:41150000,41300000
+### Example 2:
+Get all genes for chr17:41150000,41300000
 ```r
-subsetGenesChr17 <- udf_GeneSymbol("chr17",41150000,41300000)
+subsetGenesChr17 <- GeneSymbol("chr17",41150000,41300000)
 ggplot(subsetGenesChr17) + 
  geom_alignment(aes(group=gene_id,fill=strand,col=strand))
 ```
