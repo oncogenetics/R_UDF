@@ -3,9 +3,12 @@ R_UDF
 
 # R functions
 
-## SampleLocation - DNA selection from plates...
+## SampleLocation
+DNA selection from plates...
 
-## GeneSymbol - collapse transcripts into gene symbols. Output is a Granges object for defined region in a chromosome.
+## GeneSymbol
+Collapse transcripts into gene symbols. Output is a Granges object for defined region in a chromosome.
+
 ### Example 1: Get all genes for chr17
 ```r
 allGenesChr17 <- udf_GeneSymbol(chrom = "chr17")
