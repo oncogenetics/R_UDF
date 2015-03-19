@@ -1,5 +1,5 @@
 # GeneSymbol --------------------------------------------------------------
-udf_GeneSymbol <- function(chrom=NA,chromStart=NA,chromEnd=NA){
+GeneSymbol <- function(chrom=NA,chromStart=NA,chromEnd=NA){
  require(dplyr)
  require(GenomicFeatures)
  require(TxDb.Hsapiens.UCSC.hg19.knownGene)
