@@ -7,6 +7,14 @@ DNA selection from plates...
 ## 2. GeneSymbol
 Collapse transcripts into gene symbols. Output is a Granges object for defined region in a chromosome.
 
+Required packages:
+```r
+require(dplyr)
+require(GenomicFeatures)
+require(TxDb.Hsapiens.UCSC.hg19.knownGene)
+require(org.Hs.eg.db)
+```
+
 ### Example 1:
 Get all genes for chr17
 ```r
