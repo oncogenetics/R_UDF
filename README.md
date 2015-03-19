@@ -1,10 +1,10 @@
 R functions
 ====
 
-1. SampleLocation
+### 1. SampleLocation
 DNA selection from plates...
 
-2. GeneSymbol
+### 2. GeneSymbol
 Collapse transcripts into gene symbols. Output is a Granges object for defined region in a chromosome.
 
 Required packages:
