@@ -1,7 +1,5 @@
-R_UDF
-=====
-
-# R functions
+R functions
+====
 
 ## SampleLocation
 DNA selection from plates...
