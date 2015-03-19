@@ -27,3 +27,5 @@ subsetGenesChr17 <- GeneSymbol("chr17",41150000,41300000)
 ggplot(subsetGenesChr17) + 
  geom_alignment(aes(group=gene_id,fill=strand,col=strand))
 ```
+![GeneSymbols_chr17_41150000_41300000](/images/chr17_41150000_41300000.jpeg)
+
