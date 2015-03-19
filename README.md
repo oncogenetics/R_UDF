@@ -15,7 +15,7 @@ require(TxDb.Hsapiens.UCSC.hg19.knownGene)
 require(org.Hs.eg.db)
 ```
 
-### Example 1:
+#### Example 1:
 Get all genes for chr17
 ```r
 allGenesChr17 <- GeneSymbol(chrom = "chr17")
@@ -28,7 +28,7 @@ roi <- GRanges(seqnames="chr17",
 ggplot(subsetByOverlaps(allGenesChr17,roi)) + 
   geom_alignment(aes(group=gene_id,fill=strand,col=strand))
 ```
-### Example 2:
+#### Example 2:
 Get all genes for chr17:41150000,41300000
 ```r
 subsetGenesChr17 <- GeneSymbol("chr17",41150000,41300000)
@@ -36,6 +36,6 @@ ggplot(subsetGenesChr17) +
  geom_alignment(aes(group=gene_id,fill=strand,col=strand))
 ```
 
-### Plot output for Example 1 and 2
+#### Plot output for Example 1 and 2
 ![GeneSymbols_chr17_41150000_41300000](/images/chr17_41150000_41300000.jpeg)
 
