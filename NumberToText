@@ -1,6 +1,6 @@
 # In Progress...
 # convert some numbers to text for Rmd 
-udf_numberToText <- function(x,format="lower"){
+NumberToText <- function(x,format="lower"){
   
   d <- data.frame(
     Number=c(c(1:19),seq(20,100,10)),
