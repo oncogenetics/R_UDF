@@ -39,3 +39,9 @@ ggplot(subsetGenesChr17) +
 #### Plot output for Example 1 and 2
 ![GeneSymbols_chr17_41150000_41300000](/images/chr17_41150000_41300000.jpeg)
 
+### 3. SNPProductRisk
+Calculate Odds ratio weighted SNP risk...
+In progress...
+
+
+
