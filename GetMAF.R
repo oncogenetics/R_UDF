@@ -13,7 +13,7 @@ udf_getMAF<-function(Z,missing=9){
   maf<-colMeans(Z,na.rm = TRUE)/2
   
   #if flipped mark it
-  maf <- cbind(ifelse(maf>0.5,1-0.5,maf),
+  maf <- cbind(ifelse(maf>0.5,1-maf,maf),
                ifelse(maf>0.5,1,0))
 
   #return MAF
