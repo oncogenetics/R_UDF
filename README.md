@@ -1,3 +1,13 @@
+## Deprecated
+
+## Will be merged into oncofunco package:
+https://github.com/oncogenetics/oncofunco
+
+
+
+
+
+
 R functions
 ====
 
